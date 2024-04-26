@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - John Baptist Byaruhanga</title>
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
@@ -20,37 +21,37 @@
         </nav>
     </header>
     <main>
-        <div class="card">
-        <section class="about-me">
-            <h1 class="header"><b>About me</b></h1>
-            <img class="img1" src="images/john.JPG" alt="" width="300px">
-            <p class="text">I'm Byaruhanga John Baptist from Uganda Kampala, currently pursing a degree in software developmetn from Birigham Young University. I'm a graphics and web developer, I love traveling and teaching. 
+        <section class="card-1">
+            <h2 class="title"><b>About me</b></h1>
+            <div class="about">
+                <img src="images/john.JPG" alt="" width="300px">
+                <p>I'm Byaruhanga John Baptist from Uganda Kampala, currently pursing a degree in software developmetn from Birigham Young University. I'm a graphics and web developer, I love traveling and teaching. 
                 I'm actively engaged in my role as a graphics and web developer, aiming for a rewarding career in software development.</p>
-        </section>
-        <section>        
+            </div>       
             <h2>Kampala, Uganda</h2>
-            <p class="text">Uganda boasts a rich and diverse array of wildlife, making it a prime destination for safari enthusiasts and nature lovers alike. From the lush rainforests of Bwindi Impenetrable National Park, 
-            home to endangered mountain gorillas, to the vast savannas of Queen Elizabeth National Park, teeming with iconic African wildlife such as lions, elephants, and hippos, Uganda offers a captivating tapestry of biodiversity. </p>
-           
-            <figure>
-                <img src="images/flag.png"alt="" width="300px">
-                <figcaption> The official Ugandan Flag</figcaption>
-            </figure>
+            <div class="country">
+                <p>Uganda boasts a rich and diverse array of wildlife, making it a prime destination for safari enthusiasts and nature lovers alike. From the lush rainforests of Bwindi Impenetrable National Park, 
+                home to endangered mountain gorillas, to the vast savannas of Queen Elizabeth National Park, teeming with iconic African wildlife such as lions, elephants, and hippos, Uganda offers a captivating tapestry of biodiversity. </p>
+                <figure>
+                    <img src="images/flag.png"alt="" width="300px">
+                    <figcaption> The official Ugandan Flag</figcaption>
+                </figure>
+            </div>
         </section>
-    </div>
-        <section class="card2">
-            <h2 class="web">Web Dev Resources</h2>
-            <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
-            <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
-            <li><a href="https://www.udemy.com/?gad_source=1">Udemy</a></li>
-        
-
+        <section class="card-2">
+            <h2 class="title">Web Dev Resources</h2>
+            <div class="content">
+                <ul>
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                    <li><a href="https://www.udemy.com/?gad_source=1">Udemy</a></li>
+                </ul>
+            </div>
         </section>
-        <footer>
-            <span id="currentyear"></span>
-
-        </footer>
     </main>
-    
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Byaruhanga John Baptist | Uganda</p>
+        <p class="green"> Last Modified: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
