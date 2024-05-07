@@ -1,9 +1,21 @@
-const year = document.querySelector('#currentyear');
-const today = new Date();
-year.innerHTML = today.getFullYear();
+document.addEventListener("DOMContentLoaded", function () {
+    // Last modified information
+    const lastModified = document.getElementById("lastModified");
+    const lastModifiedDate = document.lastModified;
+    lastModified.textContent = `Last Modified: ${lastModifiedDate}`;
+  });
 
-const lastModified = document.querySelector('#lastModified');
-lastModified.innerHTML = (document.lastModified);
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+  
+    // Find the span element with the ID "currentyear"
+    const yearSpan = document.getElementById('currentyear');
+  
+    // Update the content of the span element with the current year
+    yearSpan.textContent = currentYear;
+  });
+  
 
 const hamButton = document.querySelector("#hamburger");
 const ul = document.querySelector("ul");
