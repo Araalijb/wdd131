@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-05-16T11:05:04.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="L8zure0JMed_ZCFjDx-M" version="24.4.0" type="device">
+  <diagram name="Page-1" id="jH03P5ll-oPw6wDA9M_O">
+    <mxGraphModel dx="5414" dy="2842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c9In30hexZHRHBQdV703-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1660" y="3270" width="2490" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="c9In30hexZHRHBQdV703-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="-1150" width="880" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c9In30hexZHRHBQdV703-33" value="-------------" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="-950" width="1530" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="c9In30hexZHRHBQdV703-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="390" width="1530" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="c9In30hexZHRHBQdV703-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="1460" width="1520" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="c9In30hexZHRHBQdV703-37" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;STANDARD FOOTER CONTENT -COPY RIGHT -NAME- LOCATION&lt;/font&gt;&lt;div style=&quot;font-size: 29px;&quot;&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;LAST MODIFIED DATE&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="2564" width="1530" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="c9In30hexZHRHBQdV703-38" value="&lt;span style=&quot;font-size: 29px;&quot;&gt;PLACE TEXT&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1660" y="2950" width="2490" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="c9In30hexZHRHBQdV703-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1654" y="3270" width="824" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="c9In30hexZHRHBQdV703-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6" y="3870" width="824" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="c9In30hexZHRHBQdV703-43" value="&lt;font style=&quot;font-size: 29px;&quot;&gt;STANDARD FOOTER CONTENT -COPY RIGHT -NAME- LOCATION&lt;/font&gt;&lt;div style=&quot;font-size: 29px;&quot;&gt;&lt;font style=&quot;font-size: 29px;&quot;&gt;LAST MODIFIED DATE&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1650" y="4436" width="2470" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
