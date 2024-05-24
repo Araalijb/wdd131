@@ -6,32 +6,29 @@
     <title>WDD 131 - Dynamic Web Fundamentals | Temple Gallery: Byaruhanga John Baptist</title>
     <meta name="description" content="This is a page that contains images of the temple. It is more of a temple album/gallery that I created for my week 02 assignment.">
     <meta name="author" content="Byaruhanga John Baptist">
-    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/filteredtemples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
-    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/filteredtemples.js" defer></script>
 </head>
 <body>
     <header>
         <nav id="nav">
             <div id="nav-header">
-                <h1>Temple Gallery</h1>
-                l<button id="hamburger" title="menu button"></button>
+                <h1>Filtered Temple Gallery</h1>
+                <button id="hamburger" title="menu button"></button>
             </div>
             <ul>
-                <li><a href="temples.html" onclick="changeMenu ('Home')">Home</a></li>
-                <li><a href="old" onclick="changeMenu ('old')">Old</a></li>
-                <li><a href="new" onclick="changeMenu ('New')">New</a></li>
-                <li><a href="large" onclick="changeMenu ('Large')">Large</a></li>
-                <li><a href="small" onclick="changeMenu ('Small')">Small</a></li>
+                <li><a href="#" onclick="showAll()">Home</a></li>
+                <li><a href="#" onclick="showCategory('old')">Old</a></li>
+                <li><a href="#" onclick="showCategory('new')">New</a></li>
+                <li><a href="#" onclick="showCategory('large')">Large</a></li>
+                <li><a href="#" onclick="showCategory('small')">Small</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
-            <h2 id="menuHeading">Home</h2><br>
-        </div>
         <div id="temple-img">
-        
+            <!-- Temples will be displayed here -->
         </div>
     </main>
     <footer>
