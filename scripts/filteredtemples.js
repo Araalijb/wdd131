@@ -104,14 +104,13 @@ const temples = [
 ];
 
 
-
 // Execute when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
   // Function to display all temples
   function showAll() {
-    console.log("Showing all temples...");
-    displayTemples(temples);
+      displayTemples(temples);
   }
+
   // Function to filter and display temples based on category
   function showCategory(category) {
       const filteredTemples = temples.filter(temple => templeCategory(temple) === category);
