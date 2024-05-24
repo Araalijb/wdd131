@@ -109,9 +109,9 @@ const temples = [
 document.addEventListener('DOMContentLoaded', () => {
   // Function to display all temples
   function showAll() {
-      displayTemples(temples);
+    console.log("Showing all temples...");
+    displayTemples(temples);
   }
-
   // Function to filter and display temples based on category
   function showCategory(category) {
       const filteredTemples = temples.filter(temple => templeCategory(temple) === category);
