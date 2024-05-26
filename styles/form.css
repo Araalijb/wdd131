@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Container Styling */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff; /* Sky blue background */
+    color: #000000; /* Dark gray text */
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #0b07ff; /* Hot pink header background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Main Styling */
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Form Styling */
+  form {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 0.9rem; /* Reduced font size */
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem; /* Reduced font size */
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 15px 30px;
+    background-color: #0026ff; /* Hot pink submit button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem; /* Reduced font size */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0b07ff; /* Darker shade of hot pink on hover */
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #0b07ff; /* Purple color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px 0; /* Reduced padding */
+    margin-top: 20px; /* Reduced margin */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Overall Rating Styling */
+  #overallRating {
+    display: flex;
+    align-items: center;
+  }
+  
+  #overallRating label {
+    margin-right: 10px;
+  }
+  
+  /* Useful Features Styling */
+  .feature-description {
+    font-style: italic;
+    margin-bottom: 5px;
+    font-size: 0.9rem; /* Reduced font size */
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    display: inline-block; /* Display checkboxes inline */
+    margin-right: 5px;
+  }
+  
+  .checkbox-group label {
+    display: inline-block; /* Display labels inline */
+    margin-right: 15px;
+    font-size: 0.9rem; /* Reduced font size */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  
+    form {
+      max-width: 95%;
+    }
+  }
+/* Overall Rating Styling */
+#overallRating {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+  
+  #overallRating label {
+    margin-right: 10px;
+    font-size: 1.2rem; /* Increase font size for better visibility */
+  }
