@@ -1,0 +1,278 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Container Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background: #d9dad6 url('background.jpg') no-repeat center center/cover;
+  color: #030000;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+/* Header Styling */
+header {
+  background: linear-gradient(90deg, #fc017e 0%, #ff6a00 100%);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem; /* Reduced font size for navigation links */
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #ffde00;
+  text-decoration: underline;
+}
+
+/* Main Section Styling */
+main {
+  padding: 40px 0;
+}
+
+/* Section Styling */
+section h2 {
+  background: linear-gradient(90deg, #3c29e9 0%, #6a67ff 100%);
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 0.9rem; /* Reduced font size for paragraphs */
+}
+
+/* Profile Section Styling */
+#profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-right: 30px;
+  transform: scale(0.5);
+  opacity: 0;
+  animation: popIn 1s forwards;
+}
+
+@keyframes popIn {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.profile-info {
+  text-align: left;
+}
+
+.profile-info h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem; /* Reduced font size for headings */
+}
+
+.profile-info p {
+  margin: 0;
+  font-size: 0.9rem; /* Reduced font size for paragraphs */
+}
+
+/* Image Styling */
+.cover-image img,
+.small-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cover-image img:hover,
+.small-images img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.small-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.small-images img {
+  width: 30%;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.9rem; /* Reduced font size for form elements */
+}
+
+form button {
+  padding: 15px;
+  background: #00aeff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s, box-shadow 0.3s;
+  font-size: 0.9rem; /* Reduced font size for buttons */
+}
+
+form button:hover {
+  background: #005f99;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+  background: linear-gradient(90deg, #fc017e 0%, #ff6a00 100%);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Lazy Load Image Styling */
+.lazy {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.lazy-loaded {
+  opacity: 1;
+}
+/* Social Media Links Styling */
+#contact a {
+  color: #0717f3; /* Text color for social media links */
+  text-decoration: none; /* Remove default underline */
+  margin-right: 10px; /* Add some space between social media links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+#contact a:hover {
+  color: #fc017e; /* Change text color on hover */
+}
+
+#contact a i {
+  margin-right: 5px; /* Add some space between icon and text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .small-images {
+    flex-direction: column;
+  }
+
+  .small-images img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .profile img {
+    margin: 0 0 20px 0;
+  }
+}
