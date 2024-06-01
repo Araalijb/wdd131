@@ -27,7 +27,9 @@
     text-align: center;
     padding: 20px 0;
   }
-  
+  header a{
+    font-size: small;
+  }
   /* Main Styling */
   main {
     max-width: 600px;
